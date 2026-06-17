@@ -1,0 +1,7 @@
+interface:
+  display_name: "Interview Dev Loop"
+  short_description: "Interview, plan, implement, and review in a loop."
+  default_prompt: "Use Interview Dev Loop for this coding task."
+
+policy:
+  allow_implicit_invocation: true

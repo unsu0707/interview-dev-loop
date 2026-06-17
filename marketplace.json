@@ -1,0 +1,20 @@
+{
+  "name": "interview-dev-loop",
+  "interface": {
+    "displayName": "Interview Dev Loop"
+  },
+  "plugins": [
+    {
+      "name": "interview-dev-loop",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "interview-dev-loop",
+  "version": "1.0.0",
+  "description": "Approval-gated interview, planning, implementation, and review loop for coding agents.",
+  "author": {
+    "name": "unsu0707"
+  },
+  "skills": "./skills/",
+  "homepage": "https://github.com/unsu0707/interview-dev-loop",
+  "repository": "https://github.com/unsu0707/interview-dev-loop",
+  "license": "MIT",
+  "interface": {
+    "displayName": "Interview Dev Loop",
+    "shortDescription": "Investigate, interview, plan, implement, and review in a loop.",
+    "longDescription": "Interview Dev Loop is an approval-gated development workflow. The agent investigates first, asks one multiple-choice clarification question at a time, writes a plan only after material ambiguity is resolved, waits for approval, then runs implementation and review loops until no P0/P1/P2 findings remain.",
+    "developerName": "unsu0707",
+    "category": "Development",
+    "capabilities": [],
+    "defaultPrompt": "Use Interview Dev Loop for this coding task."
+  }
+}
