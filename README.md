@@ -36,7 +36,7 @@ Poor fit:
 - PR-only review loops after a pull request already exists.
 - Tasks where the human has already supplied a complete implementation plan.
 
-## Install in Codex
+## Install
 
 Codex can use Agent Skills directly, but reusable distribution is best packaged as a plugin.
 
@@ -48,39 +48,11 @@ codex plugin marketplace add unsu0707/interview-dev-loop
 
 Then install `interview-dev-loop` from the Codex plugin directory.
 
-For local authoring only, copy the skill folder to a repo-scoped skills path:
+For other coding agents, ask the agent you use:
 
-```bash
-mkdir -p .agents/skills
-cp -R skills/interview-dev-loop .agents/skills/interview-dev-loop
+```text
+Install the [unsu0707/interview-dev-loop](https://github.com/unsu0707/interview-dev-loop) skill.
 ```
-
-## Install in OpenCode
-
-OpenCode reads Agent Skills from several local paths. For project-local use:
-
-```bash
-mkdir -p .opencode/skills
-cp -R skills/interview-dev-loop .opencode/skills/interview-dev-loop
-```
-
-You can also use the shared Agent Skills path:
-
-```bash
-mkdir -p .agents/skills
-cp -R skills/interview-dev-loop .agents/skills/interview-dev-loop
-```
-
-## Install in Claude Code
-
-For project-local use:
-
-```bash
-mkdir -p .claude/skills
-cp -R skills/interview-dev-loop .claude/skills/interview-dev-loop
-```
-
-If you use Claude Code plugins, keep this repository's plugin structure and install it through your plugin workflow.
 
 ## Usage
 
